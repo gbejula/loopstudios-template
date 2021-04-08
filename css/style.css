@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
 
 
 * {
@@ -17,7 +17,6 @@ body {
   height: 80vh;
   position: relative;
   background-repeat: no-repeat;
-  
 }
 
 .navbar-brand {
@@ -32,7 +31,6 @@ body {
   cursor: pointer;
   padding-top: 2rem;
   font-weight: bold;
-  
 }
 
 .box {
@@ -54,6 +52,43 @@ body {
 
 
 #google_man {
-  padding-top: 5rem;
+  padding: 7% 10%;
   margin: 5rem;
+}
+
+.lead-box {
+  margin: 20rem 0;
+  z-index: 3;
+  padding: 0 80px; 
+}
+
+.history {
+  font-size: 0.8rem;
+}
+
+.leader {
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  z-index: 1;
+  font-size: 2.5rem;
+}
+
+.group-image {
+  position: relative;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.text {
+  position: absolute;
+  color: #fff;
+  bottom: 30px;
+  left: 60px;
+  text-transform: uppercase;
+ width: 10px;
+ font-family: 'Roboto', sans-serif;
+}
+
+#creations {
+  padding-top: 0;
 }
